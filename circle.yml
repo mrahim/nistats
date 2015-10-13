@@ -1,13 +1,10 @@
 dependencies:
-    cache_directories:
     override:
         - pip install --upgrade pip
-	- pip install setuptools numpy scipy nibabel nilearn pandas matplotlib
-	- python setup.py install
+        - pip install setuptools numpy scipy nibabel nilearn pandas matplotlib
+        - python setup.py install
 
 test:
     override:
-	- cd examples && python plot_design_matrix.py
+        - cd examples && python plot_design_matrix.py
 
-general:
-    artifacts:
