@@ -1,7 +1,7 @@
 dependencies:
     override:
         - pip install --upgrade pip
-        - pip install setuptools numpy scipy nibabel nilearn pandas matplotlib
+        - pip install setuptools numpy scipy scikit-learn nibabel nilearn pandas matplotlib
         - python setup.py install
 
 test:
