@@ -6,5 +6,5 @@ dependencies:
 
 test:
     override:
-        - cd examples && python plot_design_matrix.py
+        - cd examples && python plot_localizer_analysis.py
 
