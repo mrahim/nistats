@@ -1,7 +1,7 @@
 dependencies:
     cache_directories:
     override:
-	- pip install --upgrade pip
+        - pip install --upgrade pip
 	- pip install setuptools numpy scipy nibabel nilearn pandas matplotlib
 	- python setup.py install
 
