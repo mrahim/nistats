@@ -1,0 +1,11 @@
+dependencies:
+    cache_directories:
+    override:
+	- python setup.py install
+
+test:
+    override:
+	- cd examples && python plot_design_matrix.py
+
+general:
+    artifacts:
